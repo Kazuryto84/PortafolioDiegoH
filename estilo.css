@@ -252,7 +252,7 @@ html{
 }
 .sobremi button{
     cursor: pointer;
-    background-color: #fff;
+    background-color: transparent;
     border: 2px solid #fff;
     width: fit-content;
     display: block;
@@ -352,7 +352,7 @@ html{
 }
 @keyframes html-CSS {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .Nodejs{
@@ -361,7 +361,7 @@ html{
 }
 @keyframes Nodejs {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 71%;}
 }
 
 .skills .skill .github{
@@ -370,7 +370,7 @@ html{
 }
 @keyframes github {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .react{
@@ -379,7 +379,7 @@ html{
 }
 @keyframes react {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 70%;}
 }
 .skills .skill .Comunicacion{
     width: 0%;
@@ -387,7 +387,7 @@ html{
 }
 @keyframes Comunicacion {
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 85%;}
 }
 .skills .skill .TeamWork{
     width: 0%;
@@ -395,7 +395,7 @@ html{
 }
 @keyframes TeamWork {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 78%;}
 }
 
 .skills .skill .Paciencia{
@@ -404,7 +404,7 @@ html{
 }
 @keyframes Paciencia {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 85%;}
 }
 
 .skills .skill .Empatia{
@@ -413,7 +413,7 @@ html{
 }
 @keyframes Empatia {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .Ingles{
@@ -422,7 +422,7 @@ html{
 }
 @keyframes Ingles {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 80%;}
 }
 /* Seccion Curriculum*/
 .curriculum{
@@ -589,6 +589,11 @@ html{
     z-index: -1;
     transition: 1s;
 }
+
+a {
+    color: #fff
+}
+
 .contacto button:hover .overlay{
     width: 100%;
 }
