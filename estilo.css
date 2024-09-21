@@ -134,10 +134,12 @@ html{
     margin: 10px;
     cursor: pointer;
 }
-.portfolio .galeria .proyecto img{
-    width: 100%;
-    display: block;
+.portfolio .galeria .proyecto img {
+    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: 100px; /* Ajusta el tamaño según tus necesidades */
+    object-fit: cover; /* Asegura que la imagen se ajuste al contenedor */
 }
+
 .portfolio .galeria .proyecto .overlay{
     position: absolute;
     top: 0;
